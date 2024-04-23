@@ -19,7 +19,6 @@ between the two programs that would allow the exchange of messages to be seamles
 -----------------------------------------------------------------------------------------------------------------------------------------------
 # Console Screenshot
 <img width="1280" alt="image" src="https://github.com/PascalPahlevi/tutorial8-publisher/assets/143638456/4a86be08-e58d-48cc-899c-99ef5e089c07">
-
 While running the both subscriber and publisher, they both connect to one another through the usage of amqp://guest:guest@localhost:5672. The messages received on subscriber was sent by the publisher through the AMQP message
 broker. Essentially, the subcriber program listens for the `user_created` instances then proceeds to print out these messages, in this case totalling 5. On the other hand, the publisher program creates and sends out multiple `user_created`
 instance for the subscriber program to listen to.
