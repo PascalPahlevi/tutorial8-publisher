@@ -26,3 +26,5 @@ instance for the subscriber program to listen to.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 # Publisher Chart Screenshot
 <img width="639" alt="image" src="https://github.com/PascalPahlevi/tutorial8-publisher/assets/143638456/0650e8e5-c0bd-4bd7-ba13-caea767764a0">
+The chart above shows the activity of the publisher during its time sending messages to the subscriber. The spikes that can
+be seen in the "Message Rates" graph help determine the load of what is being sent by the publisher, it being heavy or light. On top of that, the spikes also show the rate in which the messages are acknowledged on the receving end by the subscribers.
